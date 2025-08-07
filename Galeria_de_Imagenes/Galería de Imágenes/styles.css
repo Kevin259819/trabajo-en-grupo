@@ -17,3 +17,41 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    margin-bottom: 16px; 
+}
+
+
+h1 {
+    font-size: 48px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 32px; 
+}
+
+
+h2 {
+    font-size: 28px; 
+    margin-top: 40px; 
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 32px; 
+    color: #444;
+    letter-spacing: 0.02em;
+    padding: 16px 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
