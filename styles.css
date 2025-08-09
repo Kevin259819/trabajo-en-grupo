@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 255, 165);
+    display: flex;
+    flex-direction: column; /* Para que los elementos se apilen verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    margin: 0; /* Saca los margenes */
+    text-align: center; /* Centra el texto */
+}
+
+.image {
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
+    display: inline-block; /* Hace que el botón respete paddings, margénes y bordes*/
+    margin-top: 15px; /* Espacio entre la imagen y el botón para que se vea más prolijo*/
+}
